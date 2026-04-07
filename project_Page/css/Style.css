@@ -1,8 +1,8 @@
-h1 {
+div {
   font-family: "Swanky and Moo Moo", cursive;
 }
 
-.firstRow{
+.lyricsOne{
 
   transition-property: opacity;
   transition-duration: 6s;
@@ -11,6 +11,6 @@ h1 {
 
 }
 
-.firstRow:hover{
+.lyricsOne:hover{
   opacity: 1;
 }
