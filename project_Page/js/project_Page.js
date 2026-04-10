@@ -8,6 +8,8 @@ for (let i = 0; i < count; i++) {
   p.style.animationDelay = `${i * 0.2}s`;
   p.style.position = 'absolute';
   p.style.left = '50%';
+  p.style.top = `${i * 120}px`;
   p.style.transform = 'translateX(-50%)';
+  p.style.whiteSpace = 'nowrap';
   container.appendChild(p);
 }

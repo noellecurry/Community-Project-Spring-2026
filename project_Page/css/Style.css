@@ -19,7 +19,7 @@ html, body {
   text-align: center;
   background: #f0e6d1;
   color: #bab19f;
-  font: bold 20px monospace;
+  font-size: 90px;
   overflow: hidden;
 }
 
@@ -32,6 +32,8 @@ html, body {
 }
 
 p {
+  margin: 0;
+  padding: 0;
   animation: falldown 2s linear infinite alternate;
 }
 
@@ -39,6 +41,9 @@ p {
   opacity: 1;
 }
 
+
+
 @keyframes falldown {
-  to { transform: translateY(600px); }
+  from { transform: translateX(-50%) translateY(0px); opacity: 1; }
+  to { transform: translateX(-50%) translateY(600px); opacity: 0; }
 }
