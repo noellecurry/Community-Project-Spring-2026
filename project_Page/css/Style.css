@@ -23,6 +23,17 @@ html, body {
   overflow: hidden;
 }
 
+.horizontal-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;                            /* ← anchor point is center of screen */
+  white-space: nowrap;
+  font-size: 90px;
+  color: #4705b8;
+  z-index: 10;
+  animation: scrollAcross 1.2s ease-out forwards;
+}
+
 *, ::before, ::after {
   box-sizing: inherit;
 }
@@ -46,4 +57,9 @@ p {
 @keyframes falldown {
   from { transform: translateX(-50%) translateY(0px); opacity: 1; }
   to { transform: translateX(-50%) translateY(600px); opacity: 0; }
+}
+
+@keyframes scrollAcross {
+  from { transform: translateX(-100vw)  translateY(-50%); }   /* off-screen left */
+  to   { transform: translateX(-50%)  translateY(-50%); }    /* perfectly centered */
 }
