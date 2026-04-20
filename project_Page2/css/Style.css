@@ -9,10 +9,7 @@ html, body {
 
 .horizontal-text {
   font-family: 'Swanky and Moo Moo', cursive;
-  position: fixed;
-  top: 50%;
-  left: 30%;
-  transform: translate (-50%, -50%);                      
+  position: relative;                 
   white-space: nowrap;
   font-size: 80px;
   text-align: center;
@@ -29,16 +26,4 @@ html, body {
   color: #dfd6c4;
   font-size: 150px;
   white-space: nowrap;
-}
-
-
-
-
-
-
-
-@keyframes fall {
-    to {
-        top: 100vh;
-    }
 }

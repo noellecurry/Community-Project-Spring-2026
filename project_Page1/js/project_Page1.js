@@ -42,7 +42,5 @@ function displayRandomWord(text) {
 }
 
 document.addEventListener('mousedown', resetInactivityTimer);
-document.addEventListener('keydown', resetInactivityTimer);
-document.addEventListener('scroll', resetInactivityTimer);
 
 resetInactivityTimer();
