@@ -24,23 +24,25 @@ a {
   z-index: 1;
   }
 
-  #horizontal-text4 {
-  animation-name: slideIn;
-  animation-delay: 0s;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-fill-mode: forwards;
-}
-
-.lyricsFour {
-  position: relative;
-  width: 100%;
-  height: 100vh;
+.background-text4 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: "Lexend", sans-serif;
   text-align: center;
   color: #d6cdb9;
-  font-size: 150px;
+  font-size: 250px;
   white-space: nowrap;
+}
+
+#background-text4 {
+  animation-name: dreamFade;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 
 
@@ -53,5 +55,20 @@ a {
   }
   to {
     margin-left: 0%;
+  }
+}
+
+@keyframes dreamFade {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 0%);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -100%);
   }
 }

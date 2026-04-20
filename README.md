@@ -8,3 +8,11 @@ This project is intended to show what community means to me. I think community m
 
 # acknowledgment
 The song "California" was written and composed by Joni Mitchell in 1971
+
+The JavaScript cascade animation was adapted from a CodePen by Miguel Vera.
+Source: https://codepen.io/mikeeveraa/pen/dyEzrLq
+
+AI assistance provided by Claude (claude.ai) for help modifying, debugging, and explaining code throughout this project.
+
+
+

@@ -32,7 +32,7 @@ a {
   animation-fill-mode: forwards;
 }
 
-.background-text {
+.background-text3 {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -44,7 +44,7 @@ a {
   white-space: nowrap;
 }
 
-#background-text {
+#background-text3 {
   animation-name: fadeInOut;
   animation-duration: 5s;
   animation-timing-function: ease-out;
@@ -56,12 +56,15 @@ a {
 @keyframes fadeInOut {
   from {
     opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
   }
   50% {
     opacity: 1;
+    transform: translate(-50%, -50%) scale(1.0);
   }
   to {
     opacity: 0;
+    
   }
 }
 

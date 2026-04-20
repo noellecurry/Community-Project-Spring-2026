@@ -32,19 +32,34 @@ a {
   animation-fill-mode: forwards;
 }
 
-.lyricsFive {
-  position: relative;
-  width: 100%;
-  height: 100vh;
+.background-text5 {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   font-family: "Lexend", sans-serif;
-  text-align: center;
   color: #d6cdb9;
-  font-size: 150px;
+  font-size: 250px;
   white-space: nowrap;
 }
 
+#background-text5 {
+  animation-name: scrollAcross;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
 
-
+@keyframes scrollAcross {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
 
 
 @keyframes slideIn {
