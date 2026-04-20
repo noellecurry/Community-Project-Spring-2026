@@ -3,8 +3,8 @@
 // Help modifying and explaining code using Claude (claude.ai)
 
 
-const container = document.querySelector('.lyricsOne');
-const words = ['sitting'];
+const container = document.querySelector('.lyricsSix');
+const words = ['Oh but California'];
 
 let displayInterval = 1000;
 let wordTimer;
@@ -37,4 +37,3 @@ function displayRandomWord(text) {
 }
 
 startWordCascade();
-
