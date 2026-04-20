@@ -12,7 +12,7 @@ a {
   color: inherit;
 }
 
-.horizontal-text {
+.horizontal-text6 {
   font-family: 'Swanky and Moo Moo', cursive;
   position: fixed;
   top: 50%;
@@ -24,7 +24,7 @@ a {
   z-index: 1;
   }
 
-  #horizontal-text {
+  #horizontal-text6 {
   animation-name: slideIn;
   animation-delay: 0s;
   animation-duration: 1s;

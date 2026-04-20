@@ -4,7 +4,7 @@
 
 
 const container = document.querySelector('.lyricsTwo');
-const words = ['news sure looks bad'];
+const words = ['the news looks bad'];
 
 let displayInterval = 1000;
 let wordTimer;

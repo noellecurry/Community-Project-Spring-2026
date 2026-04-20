@@ -12,7 +12,7 @@ a {
   color: inherit;
 }
 
-.horizontal-text {
+.horizontal-text3 {
   font-family: 'Swanky and Moo Moo', cursive;
   position: fixed;
   top: 50%;
@@ -20,18 +20,60 @@ a {
   transform: translate(-50%, -50%);
   white-space: nowrap;
   font-size: 80px;
-  text-align: center;
   color: #4705b8;
   z-index: 1;
+  }
+
+  #horizontal-text3 {
+  animation-name: slideIn;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
 }
 
-.lyricsOne {
-  position: relative;
-  width: 100%;
-  height: 100vh;
+.background-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: "Lexend", sans-serif;
   text-align: center;
-  color: #dfd6c4;
-  font-size: 150px;
+  color: #d6cdb9;
+  font-size: 200px;
   white-space: nowrap;
 }
+
+#background-text {
+  animation-name: fadeInOut;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+
+
