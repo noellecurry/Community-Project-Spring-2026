@@ -6,6 +6,18 @@ This project is intended to show what community means to me. I think community m
 
 # technical overview
 
+**Page 1 — "sitting"**
+![Page 1 - sitting ](img/1.png)
+
+**Page 2 — "the news looks bad"**
+![Page 2 - the news looks bad](img/2.png)
+
+**Page 3 — "give peace a chance"**
+![Page 3 - give peace a chance](img/3.png)
+
+**Page 4 — "dream"**
+![Page 4 - dream](img/4.png)
+
 # acknowledgment
 The song "California" was written and composed by Joni Mitchell in 1971
 

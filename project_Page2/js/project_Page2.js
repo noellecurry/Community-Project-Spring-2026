@@ -5,18 +5,18 @@
 
 const container = document.querySelector('.lyricsTwo');
 const words = ['the news looks bad'];
-// container and array for the text
+
 
 let displayInterval = 1000;
 let wordTimer;
-//word is added every one second
+
 
 function removeAllWords() {
     document.querySelectorAll('.falling-word').forEach(word => {
         word.remove();
     });
 }
-//
+
 
 function startWordCascade() {
     wordTimer = setInterval(() => {
@@ -26,7 +26,7 @@ function startWordCascade() {
         displayRandomWord(words[0]);
     }, displayInterval);
 }
-//
+
 
 function displayRandomWord(text) {
     const wordElem = document.createElement('div');
